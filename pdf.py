@@ -29,4 +29,4 @@ if quote in page_text:
     image.save(screenshot_path)
     screenshot_path
 else:
-    "The quote was not found on the specified page."
+    print ("The quote was not found on the specified page.")
