@@ -13,7 +13,7 @@ if quote in page_text:
     # Define the screenshot page location
     screenshot_path = "/mnt/data/Screenshot_Page_308.png"
 
-     image = Image.new("RGB", (800, 1000), "white")
+    image = Image.new("RGB", (800, 1000), "white")
     draw = ImageDraw.Draw(image)
     font = ImageFont.load_default()
   # Write the text line by line
